@@ -59,11 +59,20 @@ import {
   Sticky,
   ScrollNav,
   ScrollNavBar,
+  // hx
+  HxBank,
+  HxCertificatetype,
+  HxNationality,
+  HxSex,
+  HxLocation,
+  HxProvinces,
+  HxValidity,
+  HxBirthdate,
   RecycleList{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
-} from 'cube-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+} from 'hx-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 {{#if_eq importType "fully"}}
-import Cube from 'cube-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import Hx from 'hx-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#router}}
@@ -108,10 +117,18 @@ Vue.use(Swipe){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(Sticky){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(ScrollNav){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(ScrollNavBar){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxBank){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxCertificatetype){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxNationality){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxSex){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxLocation){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxProvinces){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxValidity){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxBirthdate){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(RecycleList){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 {{#if_eq importType "fully"}}
-Vue.use(Cube){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Hx){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}

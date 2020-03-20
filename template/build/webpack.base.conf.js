@@ -42,7 +42,7 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       {{/if_eq}}
       {{#unless postCompile}}
-      'cube-ui': 'cube-ui/lib',
+      'hx-ui': 'hx-ui/lib',
       {{/unless}}
       '@': resolve('src'),
     }

@@ -9,7 +9,7 @@ const options = {
   method: 'GET'
 }
 
-// Get latest version of cube-ui
+// Get latest version of hx-ui
 const req = https.request(options, (res) => {
   if (res.statusCode !== 200) {
     console.error(`Request Failed. Status Code: ${statusCode}`)
