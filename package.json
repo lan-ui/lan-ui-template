@@ -1,0 +1,13 @@
+{
+  "name": "vue-cli-template-hx-ui",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "hx-ui template base on webpack for Vue-cli",
+  "scripts": {
+    "update": "node ./scripts/update-hx-version.js",
+    "demo": "rm -rf demo && vue init ./ demo"
+  },
+  "devDependencies": {
+    "vue-cli": "^2.8.1"
+  }
+}
