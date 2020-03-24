@@ -1,6 +1,4 @@
-{{#amfeFlexible}}
-import 'amfe-flexible'
-{{/amfeFlexible}}
+
 {{#if_eq build "standalone"}}
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
@@ -74,6 +72,9 @@ import {
 {{#if_eq importType "fully"}}
 import Hx from 'hx-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
+{{#rem}}
+import './rem'
+{{/rem}}
 import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#router}}
 import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}

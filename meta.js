@@ -81,7 +81,7 @@ module.exports = {
       "when": "postCompile",
       "type": "confirm",
       "message": "Use rem layout?",
-      "default": false
+      "default": true
     },
     "router": {
       "type": "confirm",
