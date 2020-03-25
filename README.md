@@ -21,6 +21,7 @@ npm run dev
 TML) are ONLY allowed in .vue files - render functions are required elsewhere **仅运行时**
 
 -------------------------------------------- 
+
 - Use post-compile? (Y/n) **是否使用后编译**
 - Import type (Use arrow keys) **选择使用引入方式**
     - partly, import component on demand, which makes the size of imported code ligh
@@ -28,6 +29,7 @@ ter  **按需引入模块**
     - fully, import all the components **全部引入**
 - Custom theme? (Y/n) **是否自定义主题**
 - Use rem layout? (Y/n) **是否自定义主题**
+
 --------------------------------------------
 
 - Install vue-router? (Y/n) **是否安装vue-router**
