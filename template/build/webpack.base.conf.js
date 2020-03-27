@@ -4,9 +4,7 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 const TransformModulesPlugin = require('webpack-transform-modules-plugin')
-{{#postCompile}}
 const PostCompilePlugin = require('webpack-post-compile-plugin')
-{{/postCompile}}
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
@@ -82,7 +80,7 @@ module.exports = {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
         options: {
-          limit: 10000,
+          limit: 30000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       }
@@ -101,7 +99,7 @@ module.exports = {
     child_process: 'empty'
   },
   plugins: [
-    {{#postCompile}}new PostCompilePlugin(),
-    {{/postCompile}}new TransformModulesPlugin()
+    new PostCompilePlugin(),
+    new TransformModulesPlugin()
   ]
 }
