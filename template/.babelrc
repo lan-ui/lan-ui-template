@@ -6,7 +6,9 @@
     "stage-2"
   ],
   "plugins": [
+    {{#postCompile}}
     "transform-runtime"
+    {{/postCompile}}
   ]{{#if_or unit e2e}},
   "env": {
     "test": {
