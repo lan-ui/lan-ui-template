@@ -4,7 +4,7 @@ vue-cli < 3 快速使用hx-ui模版创建新项目
 
 ## 安装
 ```shell
-私有gitlab上下载hx-ui-template【http://106.38.93.196:8081/hualife/hx-ui-template】
+私有gitlab上下载hx-ui-template【http://106.38.93.196:8081/hx-ui/hx-ui-template】
 解压出的文件夹放本地地址【C:\Users\用户\.vue-templates（隐藏文件）】 
 vue init hx-ui-template projectName --offline  //使用本地安装，目前代码未开源  
 cd projectName  
@@ -62,4 +62,4 @@ ter  **按需引入模块**
 
 ## 问题反馈
 [组件库问题提交](http://106.38.93.196:8081/hualife/hx-ui/issues)  
-[组件库-模版问题提交](http://106.38.93.196:8081/hualife/hx-ui-template/issues)
+[组件库-模版问题提交](http://106.38.93.196:8081/hx-ui/hx-ui-template/issues)
