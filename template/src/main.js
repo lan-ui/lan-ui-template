@@ -66,6 +66,15 @@ import {
   HxProvinces,
   HxValidity,
   HxBirthdate,
+  HxPhoneNumber,
+  HxPhoneVerification,
+  HxAccountName,
+  HxAccountNumber,
+  HxAddress,
+  HxIdNumber,
+  HxEmail,
+  HxInput,
+  HxInputFdn,
   RecycleList{{#if_eq lintConfig "airbnb"}}{{/if_eq}}
 } from 'hx-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
@@ -126,6 +135,15 @@ Vue.use(HxLocation){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(HxProvinces){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(HxValidity){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(HxBirthdate){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxPhoneNumber){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxPhoneVerification){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxAccountName){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxAccountNumber){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxAddress){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxIdNumber){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxEmail){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxInput){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(HxInputFdn){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 {{#if_eq importType "fully"}}
 Vue.use(Hx){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
