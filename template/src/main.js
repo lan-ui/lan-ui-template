@@ -79,7 +79,7 @@ import {
 } from '@lan-ui/lan-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 {{#if_eq importType "fully"}}
-import  from '@lan-ui/lan-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import Lan from '@lan-ui/lan-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 {{#rem}}
 import './rem'
@@ -146,7 +146,7 @@ Vue.use(InputAdd){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(InputFdn){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 {{#if_eq importType "fully"}}
-Vue.use(){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Lan){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
