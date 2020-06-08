@@ -26,16 +26,16 @@
   },
   {{#postCompile}}
   "transformModules": {
-    "hx-ui": {
-      "transform": "hx-ui/src/modules/${member}",
+    "@lan-ui/lan-ui": {
+      "transform": "@lan-ui/lan-ui/src/modules/${member}",
       "kebabCase": true
     }
   },
   {{/postCompile}}
   {{#unless postCompile}}
   "transformModules": {
-    "hx-ui": {
-      "transform": "hx-ui/lib/${member}",
+    "@lan-ui/lan-ui": {
+      "transform": "@lan-ui/lan-ui/lib/${member}",
       "kebabCase": true,
       "style": {
         "ignore": ["create-api", "better-scroll", "locale"]
@@ -46,7 +46,7 @@
   "dependencies": {
     "vue": "^2.5.2",{{#router}}
     "vue-router": "^3.0.1",{{/router}}
-    "hx-ui": "^1.0.0"
+    "@lan-ui/lan-ui": "^1.0.0"
   },
   "devDependencies": {
     "prettier": "^1.12.1",

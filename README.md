@@ -1,13 +1,10 @@
-# hx-ui-template
+# lan-ui-template
 
-vue-cli < 3 快速使用hx-ui模版创建新项目
+vue-cli < 3 快速使用lan-ui模版创建新项目
 
 ## 安装
 ```shell
-私有gitlab上下载hx-ui-template【http://106.38.93.196:8081/hx-ui/hx-ui-template】
-git clone http://106.38.93.196:8081/hx-ui/hx-ui-template.git
-解压出的文件夹放本地地址【C:\Users\用户\.vue-templates（隐藏文件）】 
-vue init hx-ui-template projectName --offline  //使用本地安装，目前代码未开源  
+vue init lan-ui-template projectName
 cd projectName  
 npm install  
 npm run dev  
@@ -45,7 +42,7 @@ ter  **按需引入模块**
 - Setup e2e tests with Nightwatch? (Y/n) **是否安装e2e测试**
 
 ## 组件应用
-- [参考文档说明及示例](http://sales-int.ihxlife.com/hualifeui/docs/index.html)
+- [参考文档说明及示例](https://lan-ui.github.io/#/zh-CN)
 - 项目全部引入
     - 应用场景：业务组件功能使用较多，或使用整套UI样式
     - 默认安装时已经引入，直接根据文档说明使用即可
@@ -54,13 +51,13 @@ ter  **按需引入模块**
     - 引入方式（入口main.js中）
 
     ```js
-    import { Style,HxLocation } from 'hx-ui'
+    import { Style,Location } from 'lan-ui'
     Vue.use(Style)
-    Vue.use(HxLocation)
+    Vue.use(Location)
     ```
     
     - Style模块为样式模块，必须引入（不引入会导致样式问题）
 
 ## 问题反馈
-[组件库问题提交](http://106.38.93.196:8081/hualife/hx-ui/issues)  
-[组件库-模版问题提交](http://106.38.93.196:8081/hx-ui/hx-ui-template/issues)
+[组件库问题提交](https://github.com/lan-ui/lan-ui/issues)  
+[组件库-模版问题提交](https://github.com/lan-ui/lan-ui-template/issues)

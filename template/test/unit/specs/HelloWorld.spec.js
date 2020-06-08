@@ -1,6 +1,6 @@
 import Vue from 'vue'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import Hx from 'hx-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(Hx){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import Lan from '@lan-ui/lan-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Lan){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import HelloWorld from '@/components/HelloWorld'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 describe('HelloWorld.vue', () => {

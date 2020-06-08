@@ -40,7 +40,7 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       {{/if_eq}}
       {{#unless postCompile}}
-      'hx-ui': 'hx-ui/lib',
+      'lan-ui': 'lan-ui/lib',
       {{/unless}}
       '@': resolve('src'),
     }

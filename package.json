@@ -1,10 +1,10 @@
 {
-  "name": "vue-cli-template-hx-ui",
+  "name": "vue-cli-template-lan-ui",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "hx-ui template base on webpack for Vue-cli",
+  "description": "lan-ui template base on webpack for Vue-cli",
   "scripts": {
-    "update": "node ./scripts/update-hx-version.js",
+    "update": "node ./scripts/update-lan-version.js",
     "demo": "rm -rf demo && vue init ./ demo"
   },
   "devDependencies": {

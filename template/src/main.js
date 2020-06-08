@@ -57,29 +57,29 @@ import {
   Sticky,
   ScrollNav,
   ScrollNavBar,
-  // hx
-  HxBank,
-  HxCertificatetype,
-  HxNationality,
-  HxSex,
-  HxLocation,
-  HxProvinces,
-  HxValidity,
-  HxBirthdate,
-  HxPhoneNumber,
-  HxPhoneVerification,
-  HxAccountName,
-  HxAccountNumber,
-  HxAddress,
-  HxIdNumber,
-  HxEmail,
-  HxInput,
-  HxInputFdn,
+  // comm
+  Bank,
+  Certificatetype,
+  Nationality,
+  Sex,
+  Location,
+  Provinces,
+  Validity,
+  Birthdate,
+  PhoneNumber,
+  PhoneVerification,
+  AccountName,
+  AccountNumber,
+  Address,
+  IdNumber,
+  Email,
+  InputAdd,
+  InputFdn,
   RecycleList{{#if_eq lintConfig "airbnb"}}{{/if_eq}}
-} from 'hx-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+} from '@lan-ui/lan-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 {{#if_eq importType "fully"}}
-import Hx from 'hx-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import  from '@lan-ui/lan-ui'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 {{#rem}}
 import './rem'
@@ -127,26 +127,26 @@ Vue.use(Swipe){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(Sticky){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(ScrollNav){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(ScrollNavBar){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxBank){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxCertificatetype){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxNationality){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxSex){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxLocation){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxProvinces){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxValidity){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxBirthdate){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxPhoneNumber){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxPhoneVerification){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxAccountName){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxAccountNumber){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxAddress){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxIdNumber){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxEmail){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxInput){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-Vue.use(HxInputFdn){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Bank){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Certificatetype){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Nationality){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Sex){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Location){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Provinces){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Validity){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Birthdate){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(PhoneNumber){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(PhoneVerification){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(AccountName){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(AccountNumber){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Address){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(IdNumber){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(Email){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(InputAdd){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(InputFdn){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 {{#if_eq importType "fully"}}
-Vue.use(Hx){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/if_eq}}
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}

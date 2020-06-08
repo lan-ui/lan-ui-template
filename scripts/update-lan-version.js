@@ -3,13 +3,13 @@ const path = require('path')
 const https = require('https')
 
 const options = {
-  hostname: '106.38.93.196',
+  hostname: 'https://www.npmjs.com',
   port: 8080,
-  path: '/hx-ui',
+  path: '/@lan-ui/lan-ui',
   method: 'GET'
 }
 
-// Get latest version of hx-ui
+// Get latest version of lan-ui
 const req = https.request(options, (res) => {
   if (res.statusCode !== 200) {
     console.error(`Request Failed. Status Code: ${statusCode}`)
@@ -38,6 +38,6 @@ req.end()
 function replaceVersion(version) {
   const packagePath = path.resolve(__dirname, '../template/package.json')
   let content = fs.readFileSync(packagePath).toString()
-  content = content.replace(/(?<="hx-ui": "~)\d+\.\d+\.\d+(?=")/, version)
+  content = content.replace(/(?<="@lan-ui/lan-ui": "~)\d+\.\d+\.\d+(?=")/, version)
   fs.writeFileSync(packagePath, content)
 }
