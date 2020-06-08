@@ -4,7 +4,7 @@ vue-cli < 3 快速使用lan-ui模版创建新项目
 
 ## 安装
 ```shell
-vue init lan-ui-template projectName
+vue init lan-ui/lan-ui-template projectName
 cd projectName  
 npm install  
 npm run dev  
