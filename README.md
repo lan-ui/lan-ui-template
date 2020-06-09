@@ -51,7 +51,7 @@ ter  **按需引入模块**
     - 引入方式（入口main.js中）
 
     ```js
-    import { Style,Location } from 'lan-ui'
+    import { Style,Location } from '@lan-ui/lan-ui'
     Vue.use(Style)
     Vue.use(Location)
     ```
